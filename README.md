@@ -1,0 +1,2 @@
+# purchase_partner_product_filter_cgt
+odoo purchase_partner_product_filter_cgt module
