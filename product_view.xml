@@ -1,0 +1,16 @@
+<openerp>
+	<data>
+
+        <record id="product_search_form_dummy_view" model="ir.ui.view">
+            <field name="name">product.product.dummy.search</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_search_form_view"/>
+            <field name="arch" type="xml">
+				<filter name="template_id" position="after">
+					<filter string="Supplier Products" name="dummy" domain="[]" context="{}"/>
+				</filter>
+			</field>
+		</record>
+
+	</data>
+</openerp>
